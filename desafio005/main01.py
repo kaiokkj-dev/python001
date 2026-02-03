@@ -1,0 +1,6 @@
+k = int(input('Informe o numero: '))
+print('Analisando o numero {}')
+print('Unidade: {}'.format(k // 1 % 10))
+print('Dezena: {}'.format(k // 10 % 10))
+print('Centena: {}'.format(k // 100 % 10))
+print('Milhar: {}'.format(k // 1000 % 10))
