@@ -5,4 +5,3 @@ if k <= 200:
 else:
     preco = k * 0.45
 print('E o preco da sua passagem sera de R${:.2f}'.format(preco))
-    
